@@ -5,6 +5,11 @@
 
 int main() {
 
+    char user_name[50];
+    printf("Who are you?\n> ");
+    scanf("%s", user_name);
+    printf("Hello, %s!\n", user_name);
+
 printf("Tossing a coin...\n");
     const char* results[3];
     int heads_count = 0;
