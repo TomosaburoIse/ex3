@@ -22,5 +22,11 @@ printf("Tossing a coin...\n");
 
     printf("Heads: %d, Tails: %d\n", heads_count, tails_count);
 
+    if (heads_count > tails_count) {
+        printf("%s won!\n", user_name);
+    } else {
+        printf("%s lost!\n", user_name);
+    }
+
     return0;
     }
